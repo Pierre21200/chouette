@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .icon-round,
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -401,6 +401,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    
 }
 
 .nav > li > .dropdown a {
@@ -516,7 +517,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    display: none;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -677,7 +678,16 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+}
+
+.text-quote {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.text-title {
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -696,7 +706,7 @@ p {
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .social {
@@ -707,6 +717,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: white;
+    
 }
 
 h3 {
@@ -723,7 +735,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #ffffff!important;
 }
 
 h4 {
@@ -771,16 +783,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #DC7B52;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(255, 255, 255)!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #DC7B52;
+    color: rgb(255, 255, 255)!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1026,6 +1038,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    
 }
 
 @media (max-width: 400px) {
@@ -1034,6 +1047,7 @@ h4 {
         padding-right: 0;
     }
 }
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
